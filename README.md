@@ -1,11 +1,11 @@
-# LAB - 
+# LAB - 06
 
-## Project Name
+## Simple API Server
 
-### Author: Student/Group Name
+### Author: Jesse Van Volkinburg
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-jv/06-http-rest/pull/1)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)

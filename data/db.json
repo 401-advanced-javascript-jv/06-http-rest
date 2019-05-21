@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Baked Goods",
+      "display_name": "Baked Goods",
+      "description": "Good that have been baked prior to sale",
+      "_id": 1
+    },
+    {
+      "name": "UnBaked Goods",
+      "display_name": "UnBaked Goods",
+      "description": "Good that have NOT been baked prior to sale",
+      "_id": 2
+    },
+    {
+      "name": "Canned Goods",
+      "display_name": "Canned Goods",
+      "description": "Goods that have been put in a can before sale",
+      "_id": 3
+    },
+    {
+      "name": "temp",
+      "display_name": "temp",
+      "description": "temp",
+      "_id": 4
+    }
+  ],
+  "products": [
+    {
+      "category": "Baked Goods",
+      "name": "Croissant",
+      "display_name": "Croissant",
+      "description": "Flaky pastry rolled into a distinctive shape",
+      "_id": 2
+    },
+    {
+      "category": "Baked Goods",
+      "name": "Crackers",
+      "display_name": "Crackers",
+      "description": "Crispy pieces of thin, flat bread",
+      "_id": 4
+    },
+    {
+      "name": "Water",
+      "display_name": "Water",
+      "description": "Water in a can. Unbaked.",
+      "category": "UnBaked Goods",
+      "_id": 5
+    },
+    {
+      "name": "Canned Beans",
+      "display_name": "Canned Beans",
+      "description": "Beans which have been canned. Unbaked.",
+      "category": "Canned Goods",
+      "_id": 3
+    }
+  ]
+}
