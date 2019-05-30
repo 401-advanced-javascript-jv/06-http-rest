@@ -1,19 +1,24 @@
 {
-  "name": "node-apps",
+  "name": "simpleapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "promises.test.js",
+  "description": "Simple API Server",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },
   "dependencies": {
+    "eslint": "^5.16.0",
     "jest": "^24.8.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json-server": "json-server ./data/db.json --watch=./data/db.json --id _id",
+    "start": "json-server ./data/db.json",
+    "lint": "eslint '**/.js'",
+    "test": "jest --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jesse Van Volkinburg <vanvoljg@gmail.com>",
+  "license": "MIT"
 }
