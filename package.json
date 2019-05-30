@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "json-server": "json-server ./data/db.json --watch=./data/db.json --id _id",
-    "start": "nodemon",
+    "start": "json-server ./data/db.json",
     "lint": "eslint '**/.js'",
     "test": "jest --verbose --coverage",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"

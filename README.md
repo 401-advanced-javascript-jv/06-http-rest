@@ -4,6 +4,16 @@
 
 ### Author: Jesse Van Volkinburg
 
+### Usage
+- To run: `npm start` - Will start json-server on port 3000
+- Use standard HTTP methods to access the database.
+
+### Endpoints
+#### `/categories` - GET, POST
+#### `/categories/:id` - GET, PUT, DELETE
+#### `/products` - GET, POST
+#### `/products/:id` - GET, PUT, DELETE
+
 ### Links and Resources
 * [submission PR](https://github.com/401-advanced-javascript-jv/06-http-rest/pull/1)
 
